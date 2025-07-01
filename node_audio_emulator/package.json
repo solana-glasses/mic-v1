@@ -1,0 +1,55 @@
+{
+  "name": "solana-glasses-audio-emulator",
+  "version": "1.0.0",
+  "description": "Node.js audio emulator for Solana Glasses ESP32-CAM development - records audio from MacBook microphone and sends to ESP32-CAM",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node test.js",
+    "setup": "node setup.js"
+  },
+  "keywords": [
+    "esp32",
+    "esp32-cam",
+    "audio",
+    "microphone",
+    "voice-assistant",
+    "solana-glasses",
+    "wav",
+    "recording"
+  ],
+  "author": "Solana Glasses Team",
+  "license": "MIT",
+  "dependencies": {
+    "node-record-lpcm16": "^1.0.1",
+    "wav": "^1.0.2",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "cli-progress": "^3.12.0",
+    "keypress": "^0.2.1",
+    "node-notifier": "^10.0.1",
+    "ip": "^1.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/solana-glasses-mic_v1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/solana-glasses-mic_v1/issues"
+  },
+  "homepage": "https://github.com/your-username/solana-glasses-mic_v1#readme"
+} 
